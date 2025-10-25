@@ -42,3 +42,4 @@ next-env.d.ts
 
 .step-by-step.md
 /demo video
+.firebase_secret.ts
