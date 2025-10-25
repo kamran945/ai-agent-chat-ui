@@ -85,7 +85,7 @@ Used to connect and run inference on hosted AI models through Groq Cloud.
 
 ## Usage
 
-1. Clone thee repository `git clone https://github.com/kamran945/ai-agent-chat-ui`
+1. Clone the repository `git clone https://github.com/kamran945/ai-agent-chat-ui`
 2. `cd ai-agent-chat-ui`
 3. `npm install`
 4. Setup Environment Variables (Detail Below)
@@ -109,10 +109,6 @@ AUTH_GOOGLE_SECRET=...
 GROQ_API_KEY=...
 
 Ensure your Firebase project, OAuth consent screen, and Groq API are properly configured.
-
-## Usage
-
-⚠️ Placeholder for usage examples. Include example chat interactions, API calls, or screenshots demonstrating the AI agent chat interface.
 
 ## Learn More
 
