@@ -97,17 +97,17 @@ You will need to configure the following environment variables in a .env file:
 
 # Firebase
 
-FIREBASE_SERVICE_ACCOUNT_KEY=...
-NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+FIREBASE_SERVICE_ACCOUNT_KEY=...  
+NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key  
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com  
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id  
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com  
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id  
 NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
 
 # Google OAuth
 
-AUTH_GOOGLE_ID=...
+AUTH_GOOGLE_ID=...  
 AUTH_GOOGLE_SECRET=...
 
 # Groq Cloud
