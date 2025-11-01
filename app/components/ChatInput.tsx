@@ -18,6 +18,8 @@ import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import { useModel } from "@/app/context/ModelContext";
 
+import AttachmentMenu from "@/app/components/AttachmentMenu";
+
 // Define message structure
 interface ChatMessage {
   text: string;
@@ -172,13 +174,8 @@ export default function ChatInput({ id }: ChatInputProps) {
 
   return (
     <div className="sticky bottom-0 shrink-0 px-6 py-2 bg-[hsl(var(--main-background))] border-t border-[hsl(var(--border-color))]">
-      <form className="flex items-center w-full rounded-full bg-[hsl(var(--input-background))] border border-[hsl(var(--input-border))] overflow-hidden px-2">
-        <button
-          type="button"
-          className="flex items-center justify-center w-10 h-10 rounded-full text-[hsl(var(--foreground))] hover:bg-[hsl(var(--button-hover))] transition-colors hover:cursor-pointer"
-        >
-          <Paperclip className="w-5 h-5" />
-        </button>
+      <form className="flex items-center w-full rounded-full bg-[hsl(var(--input-background))] border border-[hsl(var(--input-border))] overflow-visible px-2">
+        <AttachmentMenu />
 
         <input
           type="text"
